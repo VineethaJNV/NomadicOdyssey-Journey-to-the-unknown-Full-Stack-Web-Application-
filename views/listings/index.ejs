@@ -1,4 +1,5 @@
 <% layout("/layout/boilerplate")%>
+
 <body>
     <h3>All listings</h3>
     <!-- <form method = "GET" action = "/listings/new">
@@ -14,6 +15,10 @@
                       <p class="card-text">
                        <b><%= listing.title%> </b> 
                         <br>
+                        <%=listing.location%>,<%=listing.country%>
+                        <br>
+                       <!-- <i> Hosted by <%=listing.owner.username%></i>
+                        <br> -->
                         <%= listing.price.toLocaleString("en-In")%>/night 
                       </p>
                     </div>
