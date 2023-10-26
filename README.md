@@ -26,3 +26,6 @@ Users can expect helpful error messages that guide them through any potential pr
 **Middleware Implementation:**
 The application leverages middleware functions such as pre and post middlewares to execute code at different stages of the request-response cycle, enabling seamless processing of data.
 Middleware functions play a key role in enhancing code modularity and maintainability.
+
+***Authentication and Authorization***
+ Implemented user authentication and authorization using the Passport npm package, ensuring secure access control for reviews and travel listings.
